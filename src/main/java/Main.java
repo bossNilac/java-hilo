@@ -19,6 +19,12 @@ public class Main {
 
         Card.genCard();
         while (flag) {
+            
+            if(balance==0){
+                System.out.println("Out of balance");
+                System.out.println("Exiting application");
+                System.exit(0);
+            }
             print_rules();
 
             Scanner bet_scanner = new Scanner(System.in);
