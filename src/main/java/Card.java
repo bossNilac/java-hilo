@@ -45,7 +45,7 @@ public class Card {
             card.properties = new String[]{card.card_color, ""};
         }
 
-        System.out.println("Card has been generated =>" +card.card_number +"=> "+card.card_color+"joker:"+Main.isJoker);
+        //System.out.println("Card has been generated =>" +card.card_number +"=> "+card.card_color+"joker:"+Main.isJoker);
     }
 
     public static void drawCard(Card card){
